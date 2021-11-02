@@ -1,5 +1,5 @@
 """
-COMP.CS.100 Montako löytyy?
+COMP.CS.100 Funktio listan alkioiden yhtäsuuruusvertailuun?
 Creator: Onni Ahonen
 Student id number: 150641526
 """
