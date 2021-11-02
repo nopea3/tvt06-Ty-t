@@ -6,7 +6,7 @@ Student id number: 150641526
 import numpy
 
 def are_all_members_same(*num):
-    """returns false if one is not the same else true"""
+    """returns false if values are not same else true"""
     y = 0
     #len(a[0] != 1)
     #if len(numpy.shape(num)) == 2:
@@ -32,6 +32,9 @@ def are_all_members_same(*num):
 def main():
     """main 123456789 123456789 123456789"""
     x = are_all_members_same(5, 5, 5, 5, 5, 5, 5, 5, 5)
+    #x = are_all_members_same(5, 5, 5, 5, 6, 5, 5, 5, 5)
+    #x = are_all_members_same([5, 5, 5, 5, 5, 5, 5, 5, 5])
+    #x = are_all_members_same([5, 5, 5, 5, 6, 5, 5, 5, 5])
     print(x)
 
 if __name__ == "__main__":
